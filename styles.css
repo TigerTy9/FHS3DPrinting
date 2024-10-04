@@ -111,7 +111,7 @@ nav ul li a:hover {
 }
 
 .callout-image {
-    max-width: 100%;  /* Ensures the image never exceeds the width of the container */
+    max-width: 20%;  /* Ensures the image never exceeds the width of the container */
     width: 300px;     /* Sets a reasonable width for the image */
     height: auto;     /* Keeps the image proportional */
     margin-right: 20px; /* Adds some space between the image and the text */
