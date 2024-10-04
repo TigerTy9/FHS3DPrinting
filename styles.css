@@ -187,7 +187,7 @@ footer {
     }
 
     .callout-image {
-        max-width: 100%; /* Ensure full width for better display on mobile */
+        max-width: 70%; /* Ensure full width for better display on mobile */
         height: auto;
         margin: 20px 0;
     }
