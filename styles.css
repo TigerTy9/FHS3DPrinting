@@ -161,13 +161,10 @@ footer {
     /* Styles for mobile */
     .hamburger {
         display: block; /* Show on mobile */
+        cursor: pointer; /* Change cursor to pointer for better UX */
+        font-size: 28px; /* Increase the size for better visibility */
     }
-    
-    .callout-image {
-        max-width: 50%;
-        height: auto;
-        margin: 20px 0;
-    }
+
     nav ul {
         flex-direction: column; /* Stack vertically */
         position: absolute;
@@ -175,9 +172,23 @@ footer {
         width: 100%;
         top: 50px; /* Below the header */
         left: 0;
+        z-index: 10; /* Ensure it sits above other elements */
+        padding: 10px 0; /* Add padding for spacing */
     }
 
     nav ul li {
-        padding: 10px 20px;
+        padding: 15px 20px; /* Increased padding for better spacing */
+        text-align: center; /* Center the text */
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Optional: Adds separation between items */
+    }
+
+    nav ul li:last-child {
+        border-bottom: none; /* Remove border for the last item */
+    }
+
+    .callout-image {
+        max-width: 100%; /* Ensure full width for better display on mobile */
+        height: auto;
+        margin: 20px 0;
     }
 }
